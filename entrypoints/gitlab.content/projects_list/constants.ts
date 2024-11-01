@@ -1,6 +1,8 @@
-const C_CLASS_PROJECTS_LIST = 'projects-list'
-const C_CLASS_PROJECT_LIST_ROW = 'project-row'
-const C_CLASS_PROJECT_DETAILS = 'project-details'
-const C_CLASS_NAMESPACE_NAME = 'namespace-name'
-const C_CLASS_PROJECT_NAME = 'project-name'
-const C_CLAS_AVATAR = 'avatar-container'
+export namespace constants {
+    export const C_CLASS_PROJECTS_LIST = 'projects-list'
+    export const C_CLASS_PROJECT_LIST_ROW = 'project-row'
+    export const C_CLASS_PROJECT_DETAILS = 'project-details'
+    export const C_CLASS_NAMESPACE_NAME = 'namespace-name'
+    export const C_CLASS_PROJECT_NAME = 'project-name'
+    export const C_CLAS_AVATAR = 'avatar-container'
+}
