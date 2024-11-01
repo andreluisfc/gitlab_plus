@@ -5,5 +5,5 @@ export namespace constants {
     export const C_CLASS_NAMESPACE_NAME = 'namespace-name'
     export const C_CLASS_PROJECT_USER_ACCESS = 'user-access-role'
     export const C_CLASS_PROJECT_NAME = 'project-name'
-    export const C_CLAS_AVATAR = 'avatar-container'
+    export const C_CLAS_PROJECT_AVATAR = 'project-avatar'
 }
