@@ -1,8 +1,14 @@
-import {projectList} from "./projects_list";
+import { projectList } from "./projects_list";
+import { env } from "./env";
 
 export default defineContentScript({
     matches: ['<all_urls>'],
+    world:"MAIN",
     main() {
-        projectList.Initialize();
+        if(!env.isGitlab())
+            return;
+
+        env.initialize();
+        projectList.initialize();
     }
 });
